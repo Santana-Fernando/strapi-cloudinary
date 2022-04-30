@@ -1,0 +1,35 @@
+{
+  "name": "strapi-cloudinary",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^34.0.0",
+    "@ckeditor/ckeditor5-react": "^5.0.0",
+    "@strapi/plugin-i18n": "4.1.8",
+    "@strapi/plugin-users-permissions": "4.1.8",
+    "@strapi/provider-upload-cloudinary": "^4.1.8",
+    "@strapi/strapi": "4.1.8",
+    "mysql": "2.18.1",
+    "strapi-plugin-ckeditor5": "^2.1.1-rc.1",
+    "strapi-plugin-html-wysiwyg": "^1.0.5"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "7393cdd8-8ca1-4ba0-a8c9-2039843c3c6c"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
